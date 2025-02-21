@@ -1,0 +1,42 @@
+name: maternal_assistance_app
+description: A maternal assistance app to support Indian women with maternal care and awareness.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Removed awesome_notifications dependency
+  http: ^1.0.0  # For API requests
+  intl: ^0.17.0
+  shared_preferences: ^2.0.15  # For shared preferences
+  timezone: ^0.9.1
+  fl_chart: ^0.36.0
+#  url_launcher: ^6.1.7
+  url_launcher: ^6.1.5  # or the latest version
+  permission_handler: ^10.2.0
+  flutter_local_notifications: ^14.0.0  # Or the latest version
+  provider: ^6.1.2  # State management
+  fluttertoast: ^8.2.1  # Toast messages
+  google_fonts: ^5.0.0 # For custom fonts
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/images/appointment.png
+    - assets/images/mom.png
+platforms:
+  android: true
+  ios: true
+  linux: false  # Disable Linux support
