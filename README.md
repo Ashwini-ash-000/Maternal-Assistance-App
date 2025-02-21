@@ -1,16 +1,56 @@
-# maternal_assistance_app
+Maternal Assistance App 🤰🏥
+A Flutter-based mobile application designed to assist Indian women with maternal care.
 
-A new Flutter project.
 
-## Getting Started
+📌 Features
+✅ Health Tracking – Monitor vital signs, symptoms, and medications
+✅ Personalized Diet Plans – Trimester-based food recommendations
+✅ Forum & Community – Share experiences and seek support
+✅ Educational Resources – Learn about maternity care, baby health, and well-being
+✅ Appointment Booking – Schedule doctor visits easily
+✅ Emergency Contacts – Quick access to essential numbers
 
-This project is a starting point for a Flutter application.
+🛠 Tech Stack
+Frontend: Flutter
+Backend: Firebase (Firestore, Auth)
+Database: Firestore
+Development Tools: Android Studio, Git, Firebase, Postman
 
-A few resources to get you started if this is your first Flutter project:
+🚀 Getting Started
+🔧 Prerequisites
+Install Flutter: Flutter Installation Guide
+Install Android Studio
+Clone the repository:
+git clone https://github.com/Ashwini-ash-000/Maternal-Assistance-App.git
+cd Maternal-Assistance-App
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+▶️ Run the App
+flutter pub get
+flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+📂 Folder Structure
+
+Maternal-Assistance-App/
+│── lib/
+│   ├── main.dart
+│   ├── ui/
+│   │   ├── login_page.dart
+│   │   ├── home_page.dart
+│   │   ├── health_tracker.dart
+│   │   ├── diet_plan.dart
+│   ├── models/
+│   ├── services/
+│── assets/
+│── pubspec.yaml
+(Modify based on your project structure.)
+
+🔗 Links
+🔹 GitHub Repository: Maternal Assistance App
+🔹 Flutter Docs: https://flutter.dev/docs
+
+🤝 Contributing
+Interested in contributing? Please fork the repo and create a pull request! 🚀
+
+📜 License
+This project is MIT Licensed. You are free to use and modify it.
